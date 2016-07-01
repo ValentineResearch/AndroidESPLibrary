@@ -1,0 +1,12 @@
+com.valentine.esp
+com.valentine.esp.bluetooth
+com.valentine.esp.constants
+com.valentine.esp.data
+com.valentine.esp.demo
+com.valentine.esp.factories
+com.valentine.esp.packets
+com.valentine.esp.packets.request
+com.valentine.esp.packets.response
+com.valentine.esp.screens
+com.valentine.esp.statemachines
+com.valentine.esp.utilities

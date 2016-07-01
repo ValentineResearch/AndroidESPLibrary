@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".V1Screen" >
+    
+    <TextView
+        android:id="@+id/tvHelloV1Version"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/hello_v1_ver" />
+    
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvHelloV1Version"
+        android:text="@string/status_colon_str" />
+
+    <TextView
+        android:id="@+id/tvAlertStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvStatus"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/alert_status"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btV1Ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvAlertStatus"
+        android:layout_below="@+id/tvAlertStatus"
+        android:layout_marginTop="20dp"
+        android:onClick="onBtV1VerClick"
+        android:text="@string/read_v1_version" />
+
+    <Button
+        android:id="@+id/btReadSweeps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btV1Ver"
+        android:layout_alignRight="@+id/btV1Ver"
+        android:layout_below="@+id/btV1Ver"
+        android:layout_marginTop="19dp"
+        android:onClick="onBtReadSweepsClick"
+        android:text="Read V1 Sweeps" />
+
+</RelativeLayout>

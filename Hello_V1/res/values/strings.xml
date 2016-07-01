@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Button and dialog strings -->
+    <string name="read_v1_version">Read V1 Version</string>
+    <string name="ok">OK</string>
+    <string name="esp_response">ESP Response</string>    
+    <string name="error">Error</string>
+    
+    <!--  Status strings -->
+    <string name="alert_status_unknown">Alert Status Unknown</string>
+    <string name="v1_data_lost">Status: V1 data lost</string>    
+    <string name="alert_status">Alert Status</string>
+    <string name="status_colon_str">Status: </string>
+    <string name="status_connecting">Status: Connecting&#8230;</string>
+    <string name="status_initializing">Status: Display Stream Active - V1 Initializing</string>
+    <string name="status_ready">"Status: Display Active - V1 Is Ready"</string>
+    <string name="status_connect_failed">Status: Connection failed</string>
+    <string name="alert_status_unavail">Alert Status Not Available</string>
+    
+    <!--  Alert display strings -->
+    <string name="no_alerts">No Alerts Present</string>
+    <string name="single_alert">1 Alert Present</string>
+    <string name="alerts_suffix">\u0020Alerts Present</string>
+    
+    <!--  Miscellaneous Strings -->
+    <string name="app_name">Hello V1</string>
+    <string name="hello_v1_ver">\'Hello V1\' App Version: </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_no_demo_mode">NoDemoModeScreen</string>
+    <string name="title_activity_v1_screen">V1Screen</string>
+    <string name="no_demo_mode">Demo Mode is not available in this app</string>
+</resources>

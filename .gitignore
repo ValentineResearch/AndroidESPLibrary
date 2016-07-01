@@ -1,0 +1,19 @@
+# ignore all bin directories
+# matches "bin" in any subfolder
+bin/
+
+# ignore all auto-generated folders
+gen/
+
+# ignore the settings folder
+.settings/
+
+# ignore the idea folder
+.idea/
+
+# ignore all target folders
+target/
+
+# ignore all files ending with ~
+*~ 
+
